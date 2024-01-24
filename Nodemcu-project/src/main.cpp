@@ -14,9 +14,7 @@ void setup()
   setup_bool = digitalRead ( setup_bool_pin );
   
   if ( setup_bool )
-  {
     myMongo.Get_Device_Parameters ( ) ;
-  }
   myMongo.Init_parameters ( ) ;
 
 }
